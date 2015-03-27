@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31026FFF1AC522E600F77B3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31026FFE1AC522E600F77B3A /* main.m */; };
+		310270021AC522E600F77B3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 310270011AC522E600F77B3A /* AppDelegate.m */; };
+		310270051AC522E600F77B3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 310270041AC522E600F77B3A /* ViewController.m */; };
+		310270081AC522E600F77B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310270061AC522E600F77B3A /* Main.storyboard */; };
+		3102700A1AC522E600F77B3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310270091AC522E600F77B3A /* Images.xcassets */; };
+		3102700D1AC522E600F77B3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3102700B1AC522E600F77B3A /* LaunchScreen.xib */; };
+		310270191AC522E600F77B3A /* Flying_CarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310270181AC522E600F77B3A /* Flying_CarTests.m */; };
+		310270241AC522F900F77B3A /* FlyingCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 310270231AC522F900F77B3A /* FlyingCar.m */; };
+		310270251AC5230300F77B3A /* FlyingCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 310270231AC522F900F77B3A /* FlyingCar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		310270131AC522E600F77B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31026FF11AC522E600F77B3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31026FF81AC522E600F77B3A;
+			remoteInfo = "Flying Car";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31026FF91AC522E600F77B3A /* Flying Car.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flying Car.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31026FFD1AC522E600F77B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31026FFE1AC522E600F77B3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		310270001AC522E600F77B3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		310270011AC522E600F77B3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		310270031AC522E600F77B3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		310270041AC522E600F77B3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		310270071AC522E600F77B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		310270091AC522E600F77B3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3102700C1AC522E600F77B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		310270121AC522E600F77B3A /* Flying CarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flying CarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		310270171AC522E600F77B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310270181AC522E600F77B3A /* Flying_CarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flying_CarTests.m; sourceTree = "<group>"; };
+		310270221AC522F900F77B3A /* FlyingCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyingCar.h; sourceTree = "<group>"; };
+		310270231AC522F900F77B3A /* FlyingCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyingCar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31026FF61AC522E600F77B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3102700F1AC522E600F77B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31026FF01AC522E600F77B3A = {
+			isa = PBXGroup;
+			children = (
+				31026FFB1AC522E600F77B3A /* Flying Car */,
+				310270151AC522E600F77B3A /* Flying CarTests */,
+				31026FFA1AC522E600F77B3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31026FFA1AC522E600F77B3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31026FF91AC522E600F77B3A /* Flying Car.app */,
+				310270121AC522E600F77B3A /* Flying CarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31026FFB1AC522E600F77B3A /* Flying Car */ = {
+			isa = PBXGroup;
+			children = (
+				310270001AC522E600F77B3A /* AppDelegate.h */,
+				310270011AC522E600F77B3A /* AppDelegate.m */,
+				310270031AC522E600F77B3A /* ViewController.h */,
+				310270041AC522E600F77B3A /* ViewController.m */,
+				310270061AC522E600F77B3A /* Main.storyboard */,
+				310270091AC522E600F77B3A /* Images.xcassets */,
+				3102700B1AC522E600F77B3A /* LaunchScreen.xib */,
+				31026FFC1AC522E600F77B3A /* Supporting Files */,
+				310270221AC522F900F77B3A /* FlyingCar.h */,
+				310270231AC522F900F77B3A /* FlyingCar.m */,
+			);
+			path = "Flying Car";
+			sourceTree = "<group>";
+		};
+		31026FFC1AC522E600F77B3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31026FFD1AC522E600F77B3A /* Info.plist */,
+				31026FFE1AC522E600F77B3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		310270151AC522E600F77B3A /* Flying CarTests */ = {
+			isa = PBXGroup;
+			children = (
+				310270181AC522E600F77B3A /* Flying_CarTests.m */,
+				310270161AC522E600F77B3A /* Supporting Files */,
+			);
+			path = "Flying CarTests";
+			sourceTree = "<group>";
+		};
+		310270161AC522E600F77B3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				310270171AC522E600F77B3A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31026FF81AC522E600F77B3A /* Flying Car */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3102701C1AC522E700F77B3A /* Build configuration list for PBXNativeTarget "Flying Car" */;
+			buildPhases = (
+				31026FF51AC522E600F77B3A /* Sources */,
+				31026FF61AC522E600F77B3A /* Frameworks */,
+				31026FF71AC522E600F77B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flying Car";
+			productName = "Flying Car";
+			productReference = 31026FF91AC522E600F77B3A /* Flying Car.app */;
+			productType = "com.apple.product-type.application";
+		};
+		310270111AC522E600F77B3A /* Flying CarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3102701F1AC522E700F77B3A /* Build configuration list for PBXNativeTarget "Flying CarTests" */;
+			buildPhases = (
+				3102700E1AC522E600F77B3A /* Sources */,
+				3102700F1AC522E600F77B3A /* Frameworks */,
+				310270101AC522E600F77B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				310270141AC522E600F77B3A /* PBXTargetDependency */,
+			);
+			name = "Flying CarTests";
+			productName = "Flying CarTests";
+			productReference = 310270121AC522E600F77B3A /* Flying CarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31026FF11AC522E600F77B3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Pratikbhai Patel";
+				TargetAttributes = {
+					31026FF81AC522E600F77B3A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					310270111AC522E600F77B3A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 31026FF81AC522E600F77B3A;
+					};
+				};
+			};
+			buildConfigurationList = 31026FF41AC522E600F77B3A /* Build configuration list for PBXProject "Flying Car" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31026FF01AC522E600F77B3A;
+			productRefGroup = 31026FFA1AC522E600F77B3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31026FF81AC522E600F77B3A /* Flying Car */,
+				310270111AC522E600F77B3A /* Flying CarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31026FF71AC522E600F77B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310270081AC522E600F77B3A /* Main.storyboard in Resources */,
+				3102700D1AC522E600F77B3A /* LaunchScreen.xib in Resources */,
+				3102700A1AC522E600F77B3A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310270101AC522E600F77B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31026FF51AC522E600F77B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310270051AC522E600F77B3A /* ViewController.m in Sources */,
+				310270241AC522F900F77B3A /* FlyingCar.m in Sources */,
+				310270021AC522E600F77B3A /* AppDelegate.m in Sources */,
+				31026FFF1AC522E600F77B3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3102700E1AC522E600F77B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310270191AC522E600F77B3A /* Flying_CarTests.m in Sources */,
+				310270251AC5230300F77B3A /* FlyingCar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		310270141AC522E600F77B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31026FF81AC522E600F77B3A /* Flying Car */;
+			targetProxy = 310270131AC522E600F77B3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		310270061AC522E600F77B3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				310270071AC522E600F77B3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3102700B1AC522E600F77B3A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3102700C1AC522E600F77B3A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3102701A1AC522E700F77B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3102701B1AC522E700F77B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3102701D1AC522E700F77B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Flying Car/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3102701E1AC522E700F77B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Flying Car/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		310270201AC522E700F77B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flying CarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flying Car.app/Flying Car";
+			};
+			name = Debug;
+		};
+		310270211AC522E700F77B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flying CarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flying Car.app/Flying Car";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31026FF41AC522E600F77B3A /* Build configuration list for PBXProject "Flying Car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3102701A1AC522E700F77B3A /* Debug */,
+				3102701B1AC522E700F77B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3102701C1AC522E700F77B3A /* Build configuration list for PBXNativeTarget "Flying Car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3102701D1AC522E700F77B3A /* Debug */,
+				3102701E1AC522E700F77B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3102701F1AC522E700F77B3A /* Build configuration list for PBXNativeTarget "Flying CarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310270201AC522E700F77B3A /* Debug */,
+				310270211AC522E700F77B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31026FF11AC522E600F77B3A /* Project object */;
+}
